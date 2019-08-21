@@ -14,3 +14,6 @@
 * Generate a review migration, controller, model, spec files, and resource file.
 * Add column names to reviews migration file.
 `rake db:migrate`
+`rails g migration AddPlaceToReviews place:references`
+* Generate a foreign_key migration between place and reviews
+`rake db:migrate`
