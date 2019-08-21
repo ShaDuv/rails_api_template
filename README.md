@@ -7,3 +7,6 @@
 * Add Response and ExceptionHandler modules to app/controllers/concerns and include them in ApplicationController
 `rails g resource place`
 * Generate a place migration, controller, model, spec files, and resource file.
+* Add column names to places migration file.
+`rake db:create`
+`rake db:migrate`
