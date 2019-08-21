@@ -5,3 +5,5 @@
 `bundle i`
 `bundle exec rails g rspec:install`
 * Add Response and ExceptionHandler modules to app/controllers/concerns and include them in ApplicationController
+`rails g resource place`
+* Generate a place migration, controller, model, spec files, and resource file.
