@@ -17,3 +17,4 @@
 `rails g migration AddPlaceToReviews place:references`
 * Generate a foreign_key migration between place and reviews
 `rake db:migrate`
+* Add belongs_to and has_many statements to models
