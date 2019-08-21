@@ -12,3 +12,5 @@
 `rake db:migrate`
 `rails g resource review`
 * Generate a review migration, controller, model, spec files, and resource file.
+* Add column names to reviews migration file.
+`rake db:migrate`
