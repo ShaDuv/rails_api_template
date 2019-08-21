@@ -10,3 +10,5 @@
 * Add column names to places migration file.
 `rake db:create`
 `rake db:migrate`
+`rails g resource review`
+* Generate a review migration, controller, model, spec files, and resource file.
